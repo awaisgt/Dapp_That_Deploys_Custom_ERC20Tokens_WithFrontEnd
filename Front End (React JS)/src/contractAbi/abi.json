@@ -1,0 +1,51 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_initialsupply",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_tokenName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_tokenSymbol",
+				"type": "string"
+			}
+		],
+		"name": "createNewToken",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "ERC20TOKEN",
+		"outputs": [
+			{
+				"internalType": "contract ERC20Token",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "returnTokenAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
